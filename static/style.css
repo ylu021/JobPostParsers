@@ -29,6 +29,7 @@ form, ul {
     padding: 1.5em 1em;
     border: none;
     border-radius: 6px;
+    width: 80%;
 }
 
 li {
