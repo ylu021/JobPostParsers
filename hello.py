@@ -2,6 +2,7 @@ from flask import *
 import indeed_parse2 as ip 
 import urllib
 import time
+import os
 app = Flask(__name__)
 app.secret_key =  open("/dev/random","rb").read(32) 
 
