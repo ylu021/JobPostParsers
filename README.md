@@ -1,3 +1,8 @@
+# About
+Aiming to create a bunch of parsers for crawling job infos. The current progress is indeed parser, which has two versions currently. One exports the job results to CSV, one is a site where search can be done. 
+
+### MOST RECENT UPDATE (it's online! Try it out XDD)
+http://parser123.herokuapp.com/indeedparser/
 
 ###Indeed parser
 instructions  
