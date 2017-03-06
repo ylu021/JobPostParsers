@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+{% include 'header.html' %}
+<title>Indeed Parser</title>
+{% if parsername %} 
+	<h1>Helloo {{ parsername }}</h1>
+	<form action="/indeedparser/result" method="post" >
+		<input type="text" name="q">
+		<select name="exp">
+			<option value="Entry Level">Entry Level</option>
+			<option value="Mid Level">Mid Level</option>
+			<option value="Senior Level">Senior Level</option>
+		</select>
+		<button type="submit">Search</button>
+	</form>
+{% else %}
+	<h1>Currently only indeed parser is supported
+	</h1>
+	<ul>
+		<li><a href="/indeedparser">Indeed Parser</a>
+	</ul>
+{% endif %}
+<!--<script type=text/javascript src="{{
+  url_for('static', filename='result.js') }}"></script>-->
